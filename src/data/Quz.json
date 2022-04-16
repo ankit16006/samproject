@@ -1,0 +1,59 @@
+{
+    "questions" : [
+    {
+      "questionText": " React was originally created by .....",
+      "answerOptions": [
+        { "answerText": "Rasmus Lerdorf", "isCorrect": false },
+        { "answerText": " Miško Hevery", "isCorrect": false },
+        { "answerText": "Jordan Walke", "isCorrect": true },
+        { "answerText": "Guido van Rossum", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Everything in React is a_________",
+      "answerOptions": [
+        { "answerText": "Module", "isCorrect": false },
+        { "answerText": "Package", "isCorrect": false },
+        { "answerText": "Component", "isCorrect": true },
+        { "answerText": "Class", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What are the two ways to handle data in React?",
+      "answerOptions": [
+        { "answerText": "State & Props", "isCorrect": true },
+        { "answerText": "Services & Components", "isCorrect": false },
+        { "answerText": "State & Services", "isCorrect": false },
+        { "answerText": "State & Component", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "React is used mainly for building ................",
+      "answerOptions": [
+        { "answerText": "Database", "isCorrect": false },
+        { "answerText": "User Interface", "isCorrect": true },
+        { "answerText": "Connectivity ", "isCorrect": false },
+        { "answerText": "Design platform", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "What is the children prop?",
+
+      "answerOptions": [ 
+           {
+          "answerText": "A property that adds child values to state  ","isCorrect": false},
+        {
+          "answerText": "A property that lets you set an object as a property",
+          "isCorrect": false},
+        {
+          "answerText": "A property that lets you pass data to child components ",
+          "isCorrect": false
+        },
+        {
+          "answerText":
+            "A property that lets you nest components in other components  ",
+          "isCorrect": true}
+      ]
+    }
+    ]
+}

@@ -1,0 +1,119 @@
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color:  rgb(223, 215, 215);
+  }
+  
+  .subtitle {
+    font-size: 25px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .quizInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+   
+
+  }
+  .score-section {
+    display: flex;
+    width: 470px;
+    height: 70px;
+    padding: 10px;
+    background-color:rgb(127, 110, 224);
+    box-shadow: 0 10px 30px 10px;
+    border-radius: 30px;
+    font-size: 40px;
+ margin-left: 37%;
+ margin-top: 15%;
+ color: black;
+ 
+  }
+
+  /* QUESTION/TIMER/LEFT SECTION */
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+    font-size: 40px;
+   
+  }
+  
+  .question-text {
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .timer-text {
+    background: rgb(230, 153, 12);
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 5px solid rgb(255, 189, 67);
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+      margin-top: 3%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   margin-left: 35%;
+  }
+  button {
+    width: 100%;
+    font-size: 25px;
+    color: #c0bcbc;
+    background-color: #1c8ae4;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #165db9;
+    cursor: pointer;
+  }
+  
+  .correct {
+    background-color: #2f922f;
+  }
+  
+  .incorrect {
+    background-color: #ff3333;
+  }
+  
+  button:hover {
+    background-color: #555e7d;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }
